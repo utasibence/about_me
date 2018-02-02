@@ -1,0 +1,189 @@
+/***********************************************
+Top bar color
+***********************************************/
+
+html {
+	background-color: white;
+	border-top: 20px solid #4D7094;
+}
+
+
+
+/***********************************************
+Body styling
+***********************************************/
+
+body {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 30px 30px;
+	font-size: 1.3em;
+	line-height: 1.6em;
+  font-family: sans-serif;
+	color: #777;
+	font-weight: 300;
+}
+
+
+
+/***********************************************
+Image styling
+***********************************************/
+
+img {
+	border-radius: 100%;
+	width: 340px;
+	max-width: 80%;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+
+
+/***********************************************
+Headline styling
+***********************************************/
+h1 {
+	font-size: 2.5em;
+	line-height: 1em;
+	color: #4D7094;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family: 'Bangers', cursive;
+}
+
+h2 {
+	font-size: 1em;
+	line-height: 1em;
+	font-style: oblique;
+	color: #aaa;
+
+}
+
+h3 {
+	font-size: .875em;
+	line-height: 1em;
+	font-weight: normal;
+}
+
+h4 {
+	margin-top: 60px;
+	font-weight: 500;
+  color: #4D7094;
+	font-weight: 600;
+}
+
+
+
+/********************************
+	LINK STYLING
+********************************/
+
+a {
+	color: green;
+}
+
+a:hover {
+	text-decoration: overline;
+}
+
+.links {
+	text-align: center;
+}
+
+/********************************
+	GIT LINK
+********************************/
+
+a.git {
+	color: grey;
+	text-decoration: none;
+}
+
+a.git:hover {
+	color: white;
+	background-color: grey;
+}
+
+
+
+/********************************
+	FACEBOOK LINK
+********************************/
+
+a.fb {
+	color: blue;
+	text-decoration: none;
+}
+
+a.fb:hover {
+	color: white;
+	background-color: blue;
+}
+
+
+
+/********************************
+	TREEHOUSE LINK
+********************************/
+
+a.treehouse {
+	color: green;
+	text-decoration: none;
+}
+
+a.treehouse:hover {
+	color: white;
+	background-color: green;
+}
+
+a.treehouse,
+a.fb,
+a.git {
+	padding: 5px;
+}
+
+
+
+/********************************
+	FOOTER
+********************************/
+
+footer {
+	border-top: 2px solid #4D7094;
+	font-size: 0.5em;
+	text-align: center;
+}
+
+footer p {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+
+
+/********************************
+	RESPONSIVE
+********************************/
+
+@media screen and (min-width: 359px) {
+		br {
+			display: none;
+		}
+}
+
+@media screen and (max-width: 359px) {
+		span {
+			display: none;
+		}
+}
+
+@media screen and (min-width: 1000px) {
+  .main {
+    box-shadow: 0 0 150px black;
+  }
+
+	.inner {
+		margin: 10px;
+	}
+}
